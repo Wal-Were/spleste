@@ -1,91 +1,67 @@
 <!DOCTYPE html>
-
 <html>
- <head>
+<head>
+  <style>
+    body {
+      background-image: url('https://th.bing.com/th/id/OIP.Sa2U1V75qOwz8UppkuYCbAHaE3?w=281&h=184&c=7&r=0&o=5&pid=1.7');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-color: palevioletred;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
 
- <style>
+    .center {
+      text-align: center;
+      padding-top: 40px;
+      font-size: 60px;
+      color: white;
+    }
 
- body { 
+    .button-container {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 60px;
+      flex-wrap: wrap;
+    }
 
- background-image: url(https://th.bing.com/th/id/OIP.Sa2U1V75qOwz8UppkuYCbAHaE3?w=281&h=184&c=7&r=0&o=5&pid=1.7);
- background-repeat: no-repeat;
- background-size: cover;
- background-color: palevioletred;
+    .button-container a {
+      padding: 12px 24px;
+      text-decoration: none;
+      font-size: 16px;
+      color: white;
+      border-radius: 8px;
+      transition: background-color 0.3s ease;
+    }
 
- }
+    .website {
+      background-color: orchid;
+    }
 
- .center {
- 
- text-align: center;
- padding-top: 20px;
- font-size: 75px;
- font-family:'Times New Roman', Times, serif
- 
- }
+    .works {
+      background-color: green;
+    }
 
- a.button {
- 
- display: inline-block;
- padding: 10px 20px;
- background-color: orchid;
- color: lavender;
- text-align: center;
- text-decoration: none;
- font-size: 16px;
- margin: 4px 2px;
- cursor: pointer;
- display: flex;
- justify-content: center;
- margin-top: 50px;
- margin-right: 100px;
- margin-left: 250px;
+    .portfolio {
+      background-color: palevioletred;
+    }
 
- }
+    .button-container a:hover {
+      filter: brightness(1.1);
+    }
+  </style>
+</head>
+<body>
 
- a.link {
- 
- display:inline-block; padding:
-10px 20px; background-color:
-green; color:white; text-align:center; text-decoration:none; font-size:
-16px; margin:
-4px 2px; cursor:pointer; display:flex; justify-content:center; margin-top:
-50px; margin-right:
-150px; margin-left:
-150px;
+  <div class="center">---| Welcome To The Simple Website |---</div>
 
- }
+  <div class="button-container">
+    <a href="https://maboute.pages.dev/" class="website">See My Website</a>
+    <a href="https://conctlectst.pages.dev/" class="works">See Some Works</a>
+    <a href="https://projectsite.pages.dev/" class="portfolio">See My Portfolio</a>
+  </div>
 
- a.port {
- 
- display:inline-block; padding:
-10px 20px; background-color:
-palevioletred; color:white; text-align:center; text-decoration:none; font-size:
-16px; margin:
-4px 2px; cursor:pointer; display:flex; justify-content:center; margin-top:
-50px; margin-right:
-150px; margin-left:
-150px;
-
- }
-
- </style>
-
- </head>
- <body>
-
- <div class= "center">
-
- <p>---|Welcome To The Simple Website|---</p>
-
- </div>
-
- <div style="display:flex;">
- 
- <a href="https://maboute.pages.dev/" class="button"> Want to see my website</a>
- <a href="https://conctlectst.pages.dev/" class="link"> Want to see some works?</a>
- <a href="https://projectsite.pages.dev/" class="port"> Want to see my portfolio?</a>
- 
- </div>
-  
- </body>
+</body>
 </html>
